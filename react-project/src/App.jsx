@@ -1,12 +1,9 @@
 import './style.css';
 import MovieCard from './components/MovieCard';
+import Home from './pages/Home';
 function App() {
-  return (
-    <>
-      <MovieCard movie={{ title: "Ensenshi", release_date: "2023-01-01" }} />
-      <MovieCard movie={{ title: "Ensenshi", release_date: "2023-01-01" }} />
-    </>
-  );
+
+    return <Home />;
 }
 
 export default App;
