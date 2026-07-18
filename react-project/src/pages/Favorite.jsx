@@ -1,3 +1,7 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import "../css/Favorites.css";
+
 function Favorite() {
   return (
     <div className="favorite-empty">

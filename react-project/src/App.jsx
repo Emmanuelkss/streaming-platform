@@ -1,4 +1,4 @@
-import './style.css';
+import './css/App.css';
 import MovieCard from './components/MovieCard';
 import Home from './pages/Home';
 import { Routes, Route } from 'react-router-dom';
